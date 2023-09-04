@@ -190,14 +190,18 @@ function App() {
       <div className='mx-auto bg-blue-700 w-12 h-2 mb-2'></div>
       <div id='project-group' className=''>
         <div id='projectbox' className='w-[25em] group bg-neutral-200'>
-          <div className="relative overflow-hidden w-full">
-            <img src={pic} alt="project" className="w-full h-auto group-hover:scale-130 ease-in transition-transform duration-500" />
-          </div>
+          <a href='https://cartoon.codecrafted.com.ng' target='_blank' rel='noreferrer' className=''>
+            <div className="relative overflow-hidden w-full">
+              <img src={pic} alt="project" className="w-full h-auto group-hover:scale-130 ease-in transition-transform duration-500" />
+            </div>
+            </a>
           <div id='project-info' className='px-3 pt-8'>
             <h3 className='font-bold'>Cartoon Movie Cinema HTML AND CSS</h3>
             <p className=''>HTML AND CSS / May, 2023</p>
             <p className=''>HTML and CSS site that displays selected cartoon trailers.</p>
             <p className=''>This site is best viewed on PC and mobile portrait mode only.</p>
+            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-blue-700'>See the code on Github</a><br />
+            <a href='https://cartoon.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-blue-700'>Visit the Site&#127993;</a>
           </div>
         </div>
         
