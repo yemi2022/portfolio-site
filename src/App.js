@@ -197,11 +197,11 @@ function App() {
             </a>
           <div id='project-info' className='px-3 pt-8'>
             <h3 className='font-bold'>Cartoon Movie Cinema HTML AND CSS</h3>
-            <p className=''>HTML AND CSS / May, 2023</p>
-            <p className=''>HTML and CSS site that displays selected cartoon trailers.</p>
-            <p className=''>This site is best viewed on PC and mobile portrait mode only.</p>
-            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-blue-700'>See the code on Github</a><br />
-            <a href='https://cartoon.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-blue-700'>Visit the Site&#127993;</a>
+            <p className='text-sm'><span className='text-blue-500'>HTML AND CSS</span> / May, 2023</p>
+            <p className='text-sm'>HTML and CSS site that displays selected cartoon trailers.</p>
+            <p className='text-sm'>This site is best viewed on PC and mobile portrait mode only.</p>
+            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>See the code on Github</a><br />
+            <a href='https://cartoon.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
           </div>
         </div>
         
