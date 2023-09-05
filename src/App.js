@@ -2,6 +2,9 @@ import './my-js/index'
 import './App.css'
 import profile from './assets/portrait3.jpg'
 import pic from './assets/cartoon-html.jpg'
+import pic2 from './assets/cartooon-vue.jpg'
+import weather from './assets/weather.jpg'
+import portfolio from './assets/portfolio.jpg'
 import ReactTyped from "react-typed"
 
 function App() {
@@ -184,23 +187,87 @@ function App() {
       </a>
     </div>
   </section>
-  <section id="projects" className='px-14 py-0 sm:px-4 sm:mb-20 mb-32'>
-      <h1 className='text-center text-3xl font-black mb-2'>PROJECTS SECTION</h1>
-      <p className='text-center mb-2'>Below are some of my completed projects</p>
-      <div className='mx-auto bg-blue-700 w-12 h-2 mb-2'></div>
-      <div id='project-group' className=''>
+  <section id="projects" className='p-0 sm:px-4 sm:mb-20 mb-32'>
+      <h1 className='text-center text-3xl font-black mb-4'>PROJECTS</h1>
+      <p className='text-center mb-4'>Below are some of my completed projects</p>
+      <div className='mx-auto bg-blue-700 w-12 h-2 mb-12'></div>
+      <div id='project-group' className='flex flex-wrap justify-center items-stretch gap-8'>
+        <div id='projectbox' className='w-[25em] group bg-neutral-200'>
+          <a href='#home' className=''>
+            <div className="relative overflow-hidden w-full">
+              <img src={portfolio} alt="project" className="w-full h-auto group-hover:scale-130 ease-in transition-transform duration-500" />
+            </div>
+            </a>
+          <div id='project-info' className='px-3 pb-4 pt-8'>
+            <h3 className='font-bold mb-2'>Portfolio Site</h3>
+            <p className='text-sm mb-2'><span className='text-blue-500'>React and Tailwind CSS</span> / September, 2023</p>
+            <p className='text-sm mb-2'>Portfolio site built with React and Tailwind CSS.</p>
+            <p className='text-sm mb-2'>This site is best viewed on PC, and mobile portrait, and landscape mode.</p>
+            <a href='https://github.com/yemi2022/portfolio-site.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700 mb-2'>See the code on Github</a><br />
+            <a href='#home' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
+          </div>
+        </div>
+        
+        <div id='projectbox' className='w-[25em] group bg-neutral-200'>
+          <a href='https://job.codecrafted.com.ng' target='_blank' rel='noreferrer' className=''>
+            <div className="relative overflow-hidden w-full">
+              <img src={pic} alt="project" className="w-full h-auto group-hover:scale-130 ease-in transition-transform duration-500" />
+            </div>
+            </a>
+          <div id='project-info' className='px-3 pt-8 pb-4'>
+            <h3 className='font-bold mb-2'>Job API Website</h3>
+            <p className='text-sm mb-2'><span className='text-blue-500'>Vue</span> / September, 2023</p>
+            <p className='text-sm mb-2'>Vue app that displays a list of IT job vacancies.</p>
+            <p className='text-sm mb-2'>This site is best viewed on PC.</p>
+            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700 mb-2'>See the code on Github</a><br />
+            <a href='https://job.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
+          </div>
+        </div>
+        
+        <div id='projectbox' className='w-[25em] group bg-neutral-200'>
+          <a href='https://weather.codecrafted.com.ng' target='_blank' rel='noreferrer' className=''>
+            <div className="relative overflow-hidden w-full">
+              <img src={weather} alt="project" className="w-full h-auto group-hover:scale-130 ease-in transition-transform duration-500" />
+            </div>
+            </a>
+          <div id='project-info' className='px-3 pt-8 pb-4'>
+            <h3 className='font-bold mb-2'>Weather API Website</h3>
+            <p className='text-sm mb-2'><span className='text-blue-500'>Vue</span> / August, 2023</p>
+            <p className='text-sm mb-2'>Vue app that uses open weather API to retrieve and display the current weather of searched locations.</p>
+            <p className='text-sm mb-2'>This site is best viewed on PC.</p>
+            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700 mb-2'>See the code on Github</a><br />
+            <a href='https://weather.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
+          </div>
+        </div>
+        
+        <div id='projectbox' className='w-[25em] group bg-neutral-200'>
+          <a href='https://cmc.codecrafted.com.ng' target='_blank' rel='noreferrer' className=''>
+            <div className="relative overflow-hidden w-full">
+              <img src={pic2} alt="project" className="w-full h-auto group-hover:scale-130 ease-in transition-transform duration-500" />
+            </div>
+            </a>
+          <div id='project-info' className='px-3 pt-8 pb-4'>
+            <h3 className='font-bold mb-2'>Cartoon Movie Cinema</h3>
+            <p className='text-sm mb-2'><span className='text-blue-500'>Vue and Tailwind CSS</span> / July, 2023</p>
+            <p className='text-sm mb-2'>Cartoon site rebuilt with Vue and Tailwind CSS with light and dark depending on the device's active theme.</p>
+            <p className='text-sm mb-2'>This site is best viewed on PC and mobile portrait mode.</p>
+            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700 mb-2'>See the code on Github</a><br />
+            <a href='https://cmc.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
+          </div>
+        </div>
+        
         <div id='projectbox' className='w-[25em] group bg-neutral-200'>
           <a href='https://cartoon.codecrafted.com.ng' target='_blank' rel='noreferrer' className=''>
             <div className="relative overflow-hidden w-full">
               <img src={pic} alt="project" className="w-full h-auto group-hover:scale-130 ease-in transition-transform duration-500" />
             </div>
             </a>
-          <div id='project-info' className='px-3 pt-8'>
-            <h3 className='font-bold'>Cartoon Movie Cinema HTML AND CSS</h3>
-            <p className='text-sm'><span className='text-blue-500'>HTML AND CSS</span> / May, 2023</p>
-            <p className='text-sm'>HTML and CSS site that displays selected cartoon trailers.</p>
-            <p className='text-sm'>This site is best viewed on PC and mobile portrait mode only.</p>
-            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>See the code on Github</a><br />
+          <div id='project-info' className='px-3 pt-8 pb-4'>
+            <h3 className='font-bold mb-2'>Cartoon Movie Cinema</h3>
+            <p className='text-sm mb-2'><span className='text-blue-500'>HTML AND CSS</span> / June, 2023</p>
+            <p className='text-sm mb-2'>HTML and CSS site that displays selected cartoon trailers.</p>
+            <p className='text-sm mb-2'>This site is best viewed on PC and mobile portrait mode.</p>
+            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700 mb-2'>See the code on Github</a><br />
             <a href='https://cartoon.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
           </div>
         </div>
