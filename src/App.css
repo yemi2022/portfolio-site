@@ -13,7 +13,7 @@ body{
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 19vh;
+  scroll-padding-top: 17.5vh;
 }
 
 @media (max-width: 767px) {
@@ -152,8 +152,6 @@ bottom: 10px;
   transition: .5s ease-in
 }
 
-#contact{
-  min-height: 100vh;
-  background: #fff;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-}
+/* #contact{
+
+} */
