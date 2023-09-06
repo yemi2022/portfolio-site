@@ -53,22 +53,7 @@ function App() {
   </div>
 
   
-  <a href='#home' id='back-to-top' className='invisible transition-all ease-in-out duration-500 fixed bottom-5 right-5'>
-    <div className='text-white bg-blue-700 hover:bg-blue-500 sm:hover:bg-blue-700 hover:transition z-10 p-3 rounded-[50%] w-10 flex justify-center'>
-      <svg
-        aria-hidden="true"
-        focusable="false"
-        data-prefix="fas"
-        class="h-4 w-4"
-        role="img"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 448 512">
-        <path
-          fill="currentColor"
-          d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path>
-      </svg>
-    </div>
-  </a>
+  
     
   <div id="top" className='text-white w-screen h-[11vh] landscape:sm:h-[15vh] sm:h-[8vh] z-10'>
     <h2 className='text-2xl sm:text-xl  landscape:sm:ml-[4em] sm:mt-2 font-mono ml-[5em] sm:ml-4'><a href="#home">&lt;ope-d-developa /&gt;</a></h2>
@@ -202,8 +187,13 @@ function App() {
             <h3 className='font-bold mb-2'>Portfolio Site</h3>
             <p className='text-sm mb-2'><span className='text-blue-500'>React and Tailwind CSS</span> / September, 2023</p>
             <p className='text-sm mb-2'>Portfolio site built with React and Tailwind CSS.</p>
-            <p className='text-sm mb-2'>This site is best viewed on PC, and mobile portrait, and landscape mode.</p>
-            <a href='https://github.com/yemi2022/portfolio-site.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700 mb-2'>See the code on Github</a><br />
+            <p className='text-sm mb-2'>This site is fully responsive and can be viewed in portrait, and landscape mode.</p>
+            <a href='https://github.com/yemi2022/portfolio-site.git' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-42'>              
+              <span>Source Code</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
+              </svg>
+            </a><br />
             <a href='#home' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
           </div>
         </div>
@@ -211,15 +201,20 @@ function App() {
         <div id='projectbox' className='w-[22em] group bg-neutral-200'>
           <a href='https://job.codecrafted.com.ng' target='_blank' rel='noreferrer' className=''>
             <div className="relative overflow-hidden w-full">
-              <img src={pic} alt="project" className="w-full h-auto group-hover:scale-130 sm:group-hover:scale-100 ease-in transition-transform duration-500" />
+              JOY IS COMING IN THE MORNING
             </div>
             </a>
           <div id='project-info' className='px-3 pt-8 pb-4'>
             <h3 className='font-bold mb-2'>Job API Website</h3>
             <p className='text-sm mb-2'><span className='text-blue-500'>Vue</span> / September, 2023</p>
-            <p className='text-sm mb-2'>Vue app that displays a list of IT job vacancies.</p>
+            <p className='text-sm mb-2'>Vue app that displays a list of IT job vacancies. <span className='text-red-500'>Not yet available</span></p>
             <p className='text-sm mb-2'>This site is best viewed on PC.</p>
-            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700 mb-2'>See the code on Github</a><br />
+            <a href='#home' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-2'>
+              <span>Source Code</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
+              </svg>
+            </a><br />
             <a href='https://job.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
           </div>
         </div>
@@ -235,7 +230,7 @@ function App() {
             <p className='text-sm mb-2'><span className='text-blue-500'>Vue</span> / August, 2023</p>
             <p className='text-sm mb-2'>Vue app that uses open weather API to retrieve and display the current weather of searched locations.</p>
             <p className='text-sm mb-2'>This site is best viewed on PC.</p>
-            <a href='https://github.com/yemi2022/weather-api.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700 mb-2'>See the code on Github</a><br />
+            <p className='text-sm text-red-500 mt-2 -mb-5'>Source code unavailable due to API token exposure</p><br />
             <a href='https://weather.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
           </div>
         </div>
@@ -251,7 +246,12 @@ function App() {
             <p className='text-sm mb-2'><span className='text-blue-500'>Vue and Tailwind CSS</span> / July, 2023</p>
             <p className='text-sm mb-2'>Cartoon site rebuilt with Vue and Tailwind CSS with light and dark depending on the device's active theme.</p>
             <p className='text-sm mb-2'>This site is best viewed on PC and mobile portrait mode.</p>
-            <a href='https://github.com/yemi2022/vue-cartoon-site.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700 mb-2'>See the code on Github</a><br />
+            <a href='https://github.com/yemi2022/vue-cartoon-site.git' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-2'>              
+              <span>Source Code</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
+              </svg>
+            </a><br />
             <a href='https://cmc.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
           </div>
         </div>
@@ -267,10 +267,32 @@ function App() {
             <p className='text-sm mb-2'><span className='text-blue-500'>HTML AND CSS</span> / June, 2023</p>
             <p className='text-sm mb-2'>HTML and CSS site that displays selected cartoon trailers.</p>
             <p className='text-sm mb-2'>This site is best viewed on PC and mobile portrait mode.</p>
-            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-sm text-blue-700 mb-2'>See the code on Github</a><br />
+            <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-2'>
+              <span>Source Code</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
+              </svg>
+            </a><br />
             <a href='https://cartoon.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
           </div>
         </div>
+
+        <a href='#home' id='back-to-top' className='invisible transition-all ease-in-out duration-500 fixed bottom-5 right-5'>
+    <div className='text-white bg-blue-700 hover:bg-blue-500 sm:hover:bg-blue-700 hover:transition z-10 p-3 rounded-[50%] w-10 flex justify-center'>
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        class="h-4 w-4"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512">
+        <path
+          fill="currentColor"
+          d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path>
+      </svg>
+    </div>
+  </a>
         
     
       </div>

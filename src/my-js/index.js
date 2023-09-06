@@ -31,17 +31,17 @@ window.onscroll = () => {
                 about_mobile.classList.remove("showing");
                 project_mobile.classList.remove("showing");
                 contact_mobile.classList.remove("showing");
-            }   else if(window.scrollY > 400 && window.scrollY < 1300) { 
+            }   else if(window.scrollY > 399 && window.scrollY < 2100) { 
                 home_mobile.classList.remove("showing");
                 about_mobile.classList.add("showing");
                 project_mobile.classList.remove("showing");
                 contact_mobile.classList.remove("showing");     
-            }   else if (window.scrollY > 1300 && window.scrollY < 2200) {
+            }   else if (window.scrollY > 2099 && window.scrollY < 4600) {
                 home_mobile.classList.remove("showing");
                 about_mobile.classList.remove("showing");
                 project_mobile.classList.add("showing");
                 contact_mobile.classList.remove("showing");       
-            }   else if (window.scrollY > 2200) { 
+            }   else if (window.scrollY > 4599) { 
                 home_mobile.classList.remove("showing");
                 about_mobile.classList.remove("showing");
                 project_mobile.classList.remove("showing");
@@ -58,22 +58,22 @@ window.onscroll = () => {
         //mobile landscape
     }   else if (window.innerWidth > 600 && window.innerWidth < 900) {
         window.addEventListener("scroll", () => {
-            if  (window.scrollY < 300) {
+            if  (window.scrollY < 200) {
                 home_mobile.classList.add("showing");
                 about_mobile.classList.remove("showing");
                 project_mobile.classList.remove("showing");
                 contact_mobile.classList.remove("showing");
-            }   else if(window.scrollY > 300 && window.scrollY < 600) {   
+            }   else if(window.scrollY > 199 && window.scrollY < 1050) {   
                 home_mobile.classList.remove("showing");
                 about_mobile.classList.add("showing");
                 project_mobile.classList.remove("showing");
                 contact_mobile.classList.remove("showing");     
-            }   else if (window.scrollY > 600 && window.scrollY < 900) {
+            }   else if (window.scrollY >1049 && window.scrollY < 2700) {
                 home_mobile.classList.remove("showing");
                 about_mobile.classList.remove("showing");
                 project_mobile.classList.add("showing");
                 contact_mobile.classList.remove("showing");       
-            }   else if (window.scrollY > 900) {
+            }   else if (window.scrollY > 2699) {
                 home_mobile.classList.remove("showing");
                 about_mobile.classList.remove("showing");
                 project_mobile.classList.remove("showing");
@@ -100,12 +100,12 @@ window.onscroll = () => {
                 about.classList.add("active");
                 project.classList.remove("active");
                 contact.classList.remove("active");    
-            }   else if (window.scrollY > 1150 && window.scrollY < 2000) {
+            }   else if (window.scrollY > 1150 && window.scrollY < 2400) {
                 home.classList.remove("active");
                 about.classList.remove("active");
                 project.classList.add("active");
                 contact.classList.remove("active");   
-            }   else if (window.scrollY > 2000) {
+            }   else if (window.scrollY > 2400) {
                 home.classList.remove("active");
                 about.classList.remove("active");
                 project.classList.remove("active");
