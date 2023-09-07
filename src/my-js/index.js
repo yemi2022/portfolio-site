@@ -36,12 +36,12 @@ window.onscroll = () => {
                 about_mobile.classList.add("showing");
                 project_mobile.classList.remove("showing");
                 contact_mobile.classList.remove("showing");     
-            }   else if (window.scrollY > 2099 && window.scrollY < 4600) {
+            }   else if (window.scrollY > 2099 && window.scrollY < 4100) {
                 home_mobile.classList.remove("showing");
                 about_mobile.classList.remove("showing");
                 project_mobile.classList.add("showing");
                 contact_mobile.classList.remove("showing");       
-            }   else if (window.scrollY > 4599) { 
+            }   else if (window.scrollY > 4099) { 
                 home_mobile.classList.remove("showing");
                 about_mobile.classList.remove("showing");
                 project_mobile.classList.remove("showing");
