@@ -5,6 +5,7 @@ import pic from './assets/cartoon-html.jpg'
 import pic2 from './assets/cartooon-vue.jpg'
 import weather from './assets/weather.jpg'
 import portfolio from './assets/portfolio.jpg'
+import job from './assets/job-api.jpg'
 import ReactTyped from "react-typed"
 
 function App() {
@@ -199,9 +200,9 @@ function App() {
         </div>
         
         <div id='projectbox' className='w-[22em] group bg-neutral-200'>
-          <a href='#projects' target='_blank' rel='noreferrer' className=''>
-            <div className="relative overflow-hidden w-full">
-              JOY IS COMING IN THE MORNING
+          <a href='https://job.codecrafted.com.ng' target='_blank' rel='noreferrer' className=''>
+            <div className="relative overflow-hidden w-full h-48">
+            <img src={job} alt="job site" className="w-full h-auto group-hover:scale-130 sm:group-hover:scale-100 ease-in transition-transform duration-500" />
             </div>
             </a>
           <div id='project-info' className='px-3 pt-8 pb-4'>
@@ -209,13 +210,13 @@ function App() {
             <p className='text-sm mb-2'><span className='text-blue-500'>Vue</span> / September, 2023</p>
             <p className='text-sm mb-2'>Vue app that displays a list of IT job vacancies. <span className='text-red-500'>Not yet available</span></p>
             <p className='text-sm mb-2'>This site is best viewed on PC.</p>
-            <a href='#projects' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-2'>
+            <a href='https://github.com/yemi2022/job-api' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-2'>
               <span>Source Code</span>
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
               </svg>
             </a><br />
-            <a href='#projects' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
+            <a href='https://job.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
           </div>
         </div>
         
@@ -230,7 +231,7 @@ function App() {
             <p className='text-sm mb-2'><span className='text-blue-500'>Vue</span> / August, 2023</p>
             <p className='text-sm mb-2'>Vue app that uses open weather API to retrieve and display the current weather of searched locations.</p>
             <p className='text-sm mb-2'>This site is best viewed on PC.</p>
-            <p className='text-sm text-green-500 mt-2 -mb-5'>Source code unavailable to prevent API token exposure</p><br />
+            <p className='text-sm mt-2 -mb-5'>Source code unavailable to prevent API token exposure</p><br />
             <a href='https://weather.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
           </div>
         </div>
@@ -316,7 +317,7 @@ function App() {
         <div className='flex justify-center gap-4'>
           <a href='https://wa.link/bc73co' target='_blank' rel='noreferrer'>
             <svg
-            class="w-6 h-6 text-black fill-current"
+            class="w-6 h-6 text-black hover:text-green-700 sm:text-green-700 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512">
               <path
@@ -326,7 +327,7 @@ function App() {
           </a>
           <a href='https://www.linkedin.com/in/opeyemi-obidare-371715193/' target='_blank' rel='noreferrer'>
             <svg
-            class="w-6 h-6 text-black fill-current"
+            class="w-6 h-6 text-black hover:text-blue-800 sm:text-blue-800 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512">
               <path
