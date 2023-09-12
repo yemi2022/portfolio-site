@@ -123,36 +123,36 @@ function App() {
       </div>
       <div id='skills' className='flex flex-col gap-4'>
         <p className='font-semibold'>Skill</p>
-        <p>HTML5 85%<br/>
-          <div class="w-full bg-blue-200 h-2.5 mt-2">
+        <div>HTML5 85%<br/>
+          <div className="w-full bg-blue-200 h-2.5 mt-2">
             <div className='bg-blue-700 h-2.5 w-[85%]'></div>
           </div>
-        </p>
-        <p>CSS3 75%<br/>
-          <div class="w-full bg-blue-200 h-2.5 mt-2">
+        </div>
+        <div>CSS3 75%<br/>
+          <div className="w-full bg-blue-200 h-2.5 mt-2">
             <div className='bg-blue-700 h-2.5 w-[75%]'></div>
           </div>
-        </p>
-        <p>JAVASCRIPT 80%<br/>
-          <div class="w-full bg-blue-200 h-2.5 mt-2">
+        </div>
+        <div>JAVASCRIPT 80%<br/>
+          <div className="w-full bg-blue-200 h-2.5 mt-2">
             <div className='bg-blue-700 h-2.5 w-[80%]'></div>
           </div>
-        </p>
-        <p>REACT JS 75%<br/>
-          <div class="w-full bg-blue-200 h-2.5 mt-2">
+        </div>
+        <div>REACT JS 75%<br/>
+          <div className="w-full bg-blue-200 h-2.5 mt-2">
             <div className='bg-blue-700 h-2.5 w-[75%]'></div>
           </div>
-        </p>
-        <p>VUE JS 78%<br/>
-          <div class="w-full bg-blue-200 h-2.5 mt-2">
+        </div>
+        <div>VUE JS 78%<br/>
+          <div className="w-full bg-blue-200 h-2.5 mt-2">
             <div className='bg-blue-700 h-2.5 w-[78%]'></div>
           </div>
-        </p>
-        <p>TAILWIND CSS 75%<br/>
-          <div class="w-full bg-blue-200 h-2.5 mt-2">
+        </div>
+        <div>TAILWIND CSS 75%<br/>
+          <div className="w-full bg-blue-200 h-2.5 mt-2">
             <div className='bg-blue-700 h-2.5 w-[75%]'></div>
           </div>
-        </p>
+        </div>
       </div>
     </div>
     <div id='about-sect-2'  className='w-1/2 sm:w-full sm:landscape:text-lg h-full'>
@@ -164,11 +164,11 @@ function App() {
           type="button" 
           className="px-4 py-3 bg-blue-700 rounded-md text-white outline-none focus:ring-4 shadow-lg transform active:scale-x-75 transition-transform flex"
       >
-          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
           </svg>
 
-          <span class="ml-2">My Résumé</span>
+          <span className="ml-2">My CV</span>
         </button>
       </a>
     </div>
@@ -191,8 +191,8 @@ function App() {
             <p className='text-sm mb-2'>This site is fully responsive and can be viewed in portrait, and landscape mode.</p>
             <a href='https://github.com/yemi2022/portfolio-site.git' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-42'>              
               <span>Source Code</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
               </svg>
             </a><br />
             <a href='#home' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
@@ -207,13 +207,13 @@ function App() {
             </a>
           <div id='project-info' className='px-3 pt-8 pb-4'>
             <h3 className='font-bold mb-2'>Job API Website</h3>
-            <p className='text-sm mb-2'><span className='text-blue-500'>Vue</span> / September, 2023</p>
-            <p className='text-sm mb-2'>Vue app that displays a list of IT job vacancies. <span className='text-red-500'>Not yet available</span></p>
+            <p className='text-sm mb-2'><span className='text-blue-500'>Vue and Tailwind CSS</span> / September, 2023</p>
+            <p className='text-sm mb-2'>Vue app that displays a list of IT job vacancies.</p>
             <p className='text-sm mb-2'>This site is best viewed on PC.</p>
             <a href='https://github.com/yemi2022/job-api' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-2'>
               <span>Source Code</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
               </svg>
             </a><br />
             <a href='https://job.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
@@ -249,8 +249,8 @@ function App() {
             <p className='text-sm mb-2'>This site is best viewed on PC and mobile portrait mode.</p>
             <a href='https://github.com/yemi2022/vue-cartoon-site.git' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-2'>              
               <span>Source Code</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
               </svg>
             </a><br />
             <a href='https://cmc.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
@@ -270,8 +270,8 @@ function App() {
             <p className='text-sm mb-2'>This site is best viewed on PC and mobile portrait mode.</p>
             <a href='https://github.com/yemi2022/cmc-html-and-css.git' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-2'>
               <span>Source Code</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.49.5.09.682-.218.682-.486 0-.24-.009-.875-.013-1.713-2.782.603-3.369-1.338-3.369-1.338-.454-1.154-1.11-1.462-1.11-1.462-.905-.619.068-.607.068-.607 1.003.07 1.532 1.03 1.532 1.03.89 1.527 2.337 1.086 2.904.831.09-.645.35-1.086.638-1.336-2.23-.255-4.576-1.116-4.576-4.962 0-1.097.393-1.995 1.04-2.696-.105-.255-.452-1.278.099-2.665 0 0 .846-.271 2.769 1.03A9.67 9.67 0 0112 5.85c.825.005 1.657.111 2.447.328 1.923-1.3 2.768-1.03 2.768-1.03.552 1.387.206 2.41.101 2.665.647.701 1.038 1.599 1.038 2.696 0 3.858-2.35 4.704-4.592 4.954.36.312.682.924.682 1.862 0 1.345-.012 2.425-.012 2.75 0 .27.18.584.688.485C19.138 20.16 22 16.415 22 12c0-5.523-4.477-10-10-10z"/>
               </svg>
             </a><br />
             <a href='https://cartoon.codecrafted.com.ng' target='_blank' rel='noreferrer' className='text-sm text-blue-700'>Visit the Site&#127993;</a>
@@ -284,7 +284,7 @@ function App() {
         aria-hidden="true"
         focusable="false"
         data-prefix="fas"
-        class="h-4 w-4"
+        className="h-4 w-4"
         role="img"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512">
@@ -317,7 +317,7 @@ function App() {
         <div className='flex justify-center gap-4'>
           <a href='https://wa.link/bc73co' target='_blank' rel='noreferrer'>
             <svg
-            class="w-6 h-6 text-black hover:text-green-700 sm:text-green-700 fill-current"
+            className="w-6 h-6 text-black hover:text-green-700 sm:text-green-700 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512">
               <path
@@ -327,7 +327,7 @@ function App() {
           </a>
           <a href='https://www.linkedin.com/in/opeyemi-obidare-371715193/' target='_blank' rel='noreferrer'>
             <svg
-            class="w-6 h-6 text-black hover:text-blue-800 sm:text-blue-800 fill-current"
+            className="w-6 h-6 text-black hover:text-blue-800 sm:text-blue-800 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512">
               <path
@@ -336,7 +336,7 @@ function App() {
             </svg>
           </a>
           <a href='https://twitter.com/ope_obidare' target='_blank' rel='noreferrer'>
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-black fill-current" viewBox="0 0 512 512">
+          <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-black fill-current" viewBox="0 0 512 512">
           
           <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
           </a>
