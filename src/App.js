@@ -11,103 +11,83 @@ import ReactTyped from "react-typed"
 function App() {
   return (
     <div className="App">
-      { /*<header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header>
+        <div id="home">
+            <div id="headerwrap">
+                <div id="summary" className='p-0 bg-none'>
+                    <h1 className='text-center text-6xl sm:text-4xl font-bold mb-8 sm:mb-4 sm:tracking-wide'>I am Opeyemi Obidare</h1>
+                    <div className='h-4'>
+                      <p className="typewrite text-3xl font-bold sm:text-2xl">
+                        I am a{" "}
+                        <ReactTyped
+                          strings={["developer", "designer", "freelancer"]}
+                          typeSpeed={100}
+                          loop
+                          backSpeed={50}
+                          cursorChar="|"
+                          showCursor={true}
+                      />
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <h1 className="text-5xl text-yellow-500 font-bold underline">
-      Hello world!
-    </h1>
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-  </header>*/}
-
-  <header>
-  <div id="home">
-      <div id="headerwrap">
-          <div id="summary" className='p-0 bg-none'>
-              <h1 className='text-center text-6xl sm:text-4xl font-bold mb-8 sm:mb-4 sm:tracking-wide'>I am Opeyemi Obidare</h1>
-              <div className='h-4'>
-                <p className="typewrite text-3xl font-bold sm:text-2xl">
-                  I am a{" "}
-                  <ReactTyped
-                    strings={["developer", "designer", "freelancer"]}
-                    typeSpeed={100}
-                    loop
-                    backSpeed={50}
-                    cursorChar="|"
-                    showCursor={true}
-                />
-                </p>
-              </div>
+        
+        
+          
+        <div id="top" className='text-white w-screen h-[11vh] landscape:sm:h-[15vh] sm:h-[8vh] z-10'>
+          <h2 className='text-2xl sm:text-xl  landscape:sm:ml-[4em] sm:mt-2 font-mono ml-[5em] sm:ml-4'><a href="#home">&lt;ope-d-developa /&gt;</a></h2>
+          <div id="for-mobile" className="lg:hidden mr-4">
+            <button
+              id="hamburger-button"
+              className="relative h-8 w-8 text-2xl sm:text-xl landscape:sm:mr-[3em] sm:mt-2 lg:hidden"
+              onClick={() => {
+                document.getElementById('mobile-menu').classList.toggle("hidden");
+                document.getElementById('hamburger-button').classList.toggle("hidden");
+              }}
+              >
+              &#9776;
+            </button>
           </div>
-      </div>
-  </div>
+          <nav className='sm:hidden'>
+            <ul id="nav" className='text-sm font-bold mr-[8em]'>
+              <a href="#home"><li id="home-nav" className="btn btn-ltr active">HOME</li></a>
+              <a href="#about"><li id="about-nav" className="btn btn-ltr">ABOUT</li></a>
+              <a href="#projects"><li id="project-nav" className="btn btn-ltr">PROJECTS</li></a>
+              <a href="#contact"><li id="contact-nav" className="btn btn-ltr">CONTACT</li></a>
+            </ul>
+          </nav>
+        </div>
+        <div id='mobile-menu' className='lg:hidden fixed animate-open-menu top-0 bottom-0 right-0 left-0 px-4 pt-3 z-20 text-white hidden bg-[#4e4e4ee6]'>
+          <div className='w-full text-right mb-4'>
+            <button
+            id="close-button"
+            className="relative h-8 w-8 text-2xl"
+            onClick={() => {
+              document.getElementById('mobile-menu').classList.toggle("hidden");
+              document.getElementById('hamburger-button').classList.toggle("hidden");
+            }}
+            >
+              &times;
+            </button>
+          </div>
+          
+          <nav>
+            <ul className='flex flex-col gap-6 bg-white h-screen p-4 text-sm text-black' 
+            onClick={() => {
+              document.getElementById('mobile-menu').classList.toggle("hidden");
+              document.getElementById('hamburger-button').classList.toggle("hidden");
 
-  
-  
-    
-  <div id="top" className='text-white w-screen h-[11vh] landscape:sm:h-[15vh] sm:h-[8vh] z-10'>
-    <h2 className='text-2xl sm:text-xl  landscape:sm:ml-[4em] sm:mt-2 font-mono ml-[5em] sm:ml-4'><a href="#home">&lt;ope-d-developa /&gt;</a></h2>
-    <div id="for-mobile" className="lg:hidden mr-4">
-      <button
-        id="hamburger-button"
-        className="relative h-8 w-8 text-2xl sm:text-xl landscape:sm:mr-[3em] sm:mt-2 lg:hidden"
-        onClick={() => {
-          document.getElementById('mobile-menu').classList.toggle("hidden");
-          document.getElementById('hamburger-button').classList.toggle("hidden");
-        }}
-        >
-        &#9776;
-      </button>
-    </div>
-    <nav className='sm:hidden'>
-      <ul id="nav" className='text-sm font-bold mr-[8em]'>
-        <a href="#home"><li id="home-nav" className="btn btn-ltr active">HOME</li></a>
-        <a href="#about"><li id="about-nav" className="btn btn-ltr">ABOUT</li></a>
-        <a href="#projects"><li id="project-nav" className="btn btn-ltr">PROJECTS</li></a>
-        <a href="#contact"><li id="contact-nav" className="btn btn-ltr">CONTACT</li></a>
-      </ul>
-    </nav>
-  </div>
-  <div id='mobile-menu' className='lg:hidden fixed animate-open-menu top-0 bottom-0 right-0 left-0 px-4 pt-3 z-20 text-white hidden bg-[#4e4e4ee6]'>
-    <div className='w-full text-right mb-4'>
-      <button
-      id="close-button"
-      className="relative h-8 w-8 text-2xl"
-      onClick={() => {
-        document.getElementById('mobile-menu').classList.toggle("hidden");
-        document.getElementById('hamburger-button').classList.toggle("hidden");
-      }}
-      >
-        &times;
-      </button>
-    </div>
-    
-    <nav>
-      <ul className='flex flex-col gap-6 bg-white h-screen p-4 text-sm text-black' 
-      onClick={() => {
-        document.getElementById('mobile-menu').classList.toggle("hidden");
-        document.getElementById('hamburger-button').classList.toggle("hidden");
-
-      }}>
-        <li id="home-mobile" className="showing"><a href="#home">HOME</a></li>
-        <li id="about-mobile" className=""><a href="#about">ABOUT</a></li>
-        <li id="project-mobile" className=""><a href="#projects">PROJECTS</a></li>
-        <li id="contact-mobile" className=""><a href="#contact">CONTACT</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+            }}>
+              <li id="home-mobile" className="showing"><a href="#home">HOME</a></li>
+              <li id="about-mobile" className=""><a href="#about">ABOUT</a></li>
+              <li id="project-mobile" className=""><a href="#projects">PROJECTS</a></li>
+              <li id="contact-mobile" className=""><a href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
 <main className='bg-neutral-100 px-20 sm:landscape:px-5 font-light pt-14 sm:px-3'>
   <section id="about" className='py-14 px-12 sm:landscape:px-6 sm:landscape:gap-6 sm:px-4 sm:landscape:flex-row sm:mb-20 mb-32 flex sm:flex-col sm:gap-10 gap-6'>
@@ -208,8 +188,8 @@ function App() {
           <div id='project-info' className='px-3 pt-8 pb-4'>
             <h3 className='font-bold mb-2'>Job API Website</h3>
             <p className='text-sm mb-2'><span className='text-blue-500'>Vue and Tailwind CSS</span> / September, 2023</p>
-            <p className='text-sm mb-2'>Vue app that displays a list of IT job vacancies.</p>
-            <p className='text-sm mb-2'>This site is best viewed on PC.</p>
+            <p className='text-sm mb-2'>Vue app that displays a list of IT job vacancies in the US using DevIT jobs API.</p>
+            <p className='text-sm mb-2'>This site can be viewed on PC and mobile.</p>
             <a href='https://github.com/yemi2022/job-api' target='_blank' rel='noreferrer' className='text-sm flex gap-3 text-blue-700 -mb-5 mt-2'>
               <span>Source Code</span>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
